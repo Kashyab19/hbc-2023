@@ -1,1 +1,97 @@
-hbc-2023
+Harvard Blockchain Hackathon 2023
+
+Algorand Track
+
+Cross Chain Data Marketplace
+
+Summary
+In today’s digital world, data is gold, and gold is money. Online services and applications collect vast amounts of user data through cookies, tracking mechanisms, and user accounts. The harvested information includes but is not limited to user demographics, browsing and purchase behavior, search queries, hardware specifics, and session information. This valuable data is sold and uploaded to data management platforms by both websites and data brokers. The data is parsed and segmented into groups based on different criteria. Advertisers browse and select the dataset, creating detailed personal profiles which are used to predict user behavior and interests in order to tailor specific ads that are more likely to generate clicks.
+
+Our cross chain data marketplace will allow users to claim a share of royalties from the data that is collected and sold. The cookies will be stored on the Algorand blockchain, and all participant will spend and receive ALGO token in the data transactions.
+
+Problem
+Users are not incentivized to participate in data collection, and hence not compensated for the data they produce, which is in turn sold and used for targeted advertisements. 
+
+The current method of data collection and transacting is controversial due to privacy, transparency, and consent concerns. 
+Transparency: Websites do not provide clear and concise information about what data they collect, how it’s used, and with whom it’s being shared with. Users cannot make truly informed decisions on whether to allow data collection to occur.
+Privacy: Data breaches and a lack of transparency contribute to the fact that user data is not truly private and secure.
+Consent: Many sites do not ask users for consent to collect and track their data, while others restrict access completely if data collection is turned off. This lack of choice is a point of frustration for users. 
+
+Solution
+Although data driven advertising is an essential tool for businesses to reach their desired audience, our team believes in incentivizing the users to willingly participate in data collection where they are compensated for their contributions.
+
+Algorand Implementation
+The entire process of collecting user data, to reading on the data marketplace, to buying and selling it will be hosted on the Algorand blockchain due to low gas fees and high transaction speed.
+
+Current Process
+Data Collection
+	Websites and applications collect user data through cookies, tracking pixels(tiny, invisible images embedded in a website’s code to track user behavior) and user account information, some of which are often optional
+	Collected information includes personal information, browsing history, purchase history, clicks, interactions and even amount of time spent
+	This data will be used to create targeted ad campaigns and personalize content
+Websites
+	Once this data is collected, it can be sold to advertisers or third parties
+	Must follow privacy laws and regulations
+		General Data Protection Regulation(GDPR) - European Union
+		California Consumer Privacy (CCPA) - California
+	Laws aim to protect user’s privacy rights and ensure websites are transparent about data collection and usage
+Data Management Platforms (DMP) - Data Provider
+	Platforms that allow advertisers to collect and manage data from different sources
+	DMP’s may charge fees to access their platform and for the data they provide
+	Different data providers have different benefits, quality, reputation, cost
+Segmentation
+	After collection, the data is segmented into groups based on different criteria
+	Advertisers can now choose from and target specific pools of data and users
+Ad Creation
+	Creation of targeted advertisements based on user information
+Ad Placement
+	Ads placed on various platforms such as websites, applications, games, etc
+Ad Serving
+	When a user visits a site, the ad server displays the appropriate ad 
+Performance Tracking
+	Advertisers track the performance of their targeted ads through various metrics
+
+
+Proposed Money Flow
+Advertisers
+	Who do they Pay
+		DMP for data and site access
+	How do they make money
+		Clicks from users based on targeted ads
+		Selling their own collected data to other companies
+Data Management Platforms
+	Who do they Pay
+		N/A
+	How do they make money
+		Selling data
+		Site subscription/access
+		Data transaction fees
+		Listing fees
+Websites/Applications
+	Who do they Pay
+		DMP to list data on marketplace
+	How do they make money
+		Earning a portion of the revenue generated that each ad click generates on their site
+		Charging advertisers for data access through DMP
+Users
+	Who do they Pay
+		Site access(optional)
+How do they make money
+	Currently
+		They don’t - Data is collected and sold without royalties
+	Proposed
+		Any time their data is sold on the marketplace, the user receives royalties
+
+Financials
+In 2017 on average, basic data about an individual such as name, age, gender, and location costs $0.0005 per person while the average monthly price for a personal profile on a user was $0.80
+In 2019, the average price for a Facebook personal profile was $2
+In 2021, the average monthly price for a personal profile on Facebook was $2.50 and $0.817 on Youtube
+
+A survey done by Angela Wigenar and Cass Sunstein of Harvard University in 2019 showed that the average participant was willing to pay $5 per month for demographic, identity, and health data privacy, but would on average accept $80 per month to give said data away.
+
+Road Map
+Global cross chain transaction interoperability
+	Add functionality for every chain
+Multi-chain data accessibility
+	Allow content providers to use any blockchain to store user data
+Implement a native token
+	Create and use native token for transactions and fees
